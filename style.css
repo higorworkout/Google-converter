@@ -1,0 +1,109 @@
+body {
+    background-color: beige;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+header {
+   display: flex; 
+   padding: 20px;
+   justify-content: center;
+}
+
+main {
+    border: 1px solid gray;
+    width: 460px;
+    border-radius: 8px;
+    background-color: #68728f;
+}
+
+table {
+    padding: 10px;
+}
+
+input {
+    text-align: center;
+    font-size: 18pt;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #68728f;
+    color: #fff;
+}
+#met {
+    width: 330px;
+    background-color: gray;
+    border:  1px solid gray;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#deg1{
+    width: 144px;
+    border:  1px solid gray;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#deg2{
+    width: 144px;
+    border:  1px solid gray;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#unit1 {
+    width: 150px;
+    background-color: gray;
+    border:  1px solid gray;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+#unit2 {
+    width: 150px;
+    background-color: gray;
+    border:  1px solid gray;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+#igual {
+    text-align: center;
+    color:gray;
+    font-weight: bolder;
+    font-size: 20pt;
+}
+
+.form {
+    border: 1px solid transparent;
+    background-color: rgb(253, 214, 99) ;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 52px;
+    color: rgb(32, 33, 36);
+    padding: 2px;
+    border-radius: 1px;
+}
+
+.last {
+    margin-right: 1px;
+}
+
+.formC {
+    color:#fff;
+    font-weight: 800;
+}
